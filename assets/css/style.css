@@ -12,7 +12,7 @@ nav div ul li a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/images/developer-cycle.png");
+    background-image: url("../images/developer-cycle.png");
     background-size:contain;
     background-position: center;
 }
