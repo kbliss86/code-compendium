@@ -5,87 +5,157 @@
     <meta name="viewh2ort" content="width=device-width, initial-scale=1.0" />
     <meta htth2-equiv="X-UA-Comh2atible" content="ie=edge" />
     <title>Code Compendium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <header>
         <h1> Code Compendium</h1>
-        <nav>
-            <p> a links here</p>
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#summary-section">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#gitbash-section">Git Bash</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#html-section">HTML</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#css-section">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#js-section">JavaScript</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#advanced-js-section">Advanced JavaScript</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#bootstrap-section">BootStrap</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#jquery-section">JQuery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#dayjs-section">Day.js</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#server-side-api-section">Server Side APIs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#api library-section">API Library</a></li>
+                    <li class="nav-item"><a class="nav-link text-white text-decoration-underline" href="#css-framework-libraries-section">CSS Framework Library</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <main>
-        <section class="hero"><h1>this is the hero section</h1></section>
-        <section class="summary-section">
-            <h2>this is the summary section</h2>
-                <P>The goal of this project is to house all the links/documentation and tips for coding!, this will be written using HTML, CSS, Javascript, Bootstrap, Jquery, dayjs, and other third party APIs</P>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="gitbash-section">
-            <h2>this is the Gitbash section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="html-section">
-            <h2>this is the html section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="css-section">
-            <h2>this is the css section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="js-section">
-            <h2>this is the javascript section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="advanced-js-section">
-            <h2>this is the summary section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="bootstrap-section">
-            <h2>this is the bootstrah2 section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="jquery-section">
-            <h2>this is the jquery section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="dayjs-section">
-            <h2>this is the day.js section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="server-side-api-section">
-            <h2>this is the server side api section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
-        </section>
-        <section class="ah2i library-section">
-            <h2>this is the api library section</h2>
-                <ul>
-                    <li>list item 1</li>
-                </ul>
+    <main class="col">
+        <section class="hero"></section>
+        <section class="col">
+            <section id="summary-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>Summary</h1>
+                    <P>The goal of this project is to house all the links/documentation and tips for coding!, this will be written using HTML, CSS, Javascript, Bootstrap, Jquery, dayjs, and other third party APIs</P>
+                    <div class="card mb-3" style="max-width: 90%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex text-center align-items-center justify-content-center">
+                                <img src="/assets/images/full-stack.jpeg" class="img-fluid rounded-start" alt="Full Stack Developer">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h2 class="card-title">Full Stack Developer</h2>
+                                    <p class="card-text">A Full Stack Developer is a versatile and skilled professional who possesses expertise in a wide range of technologies and tools, enabling them to work on both the front-end and back-end aspects of web or software development. They are often involved in the entire development process, from conception to deployment and maintenance of applications.</p>
+                                    <p class="card-text">The term "full stack" refers to the complete technology stack, which consists of different layers or components that make up a web or software application. These layers typically include:</p>
+                                    <ol>
+                                        <li>Front-End Development: This involves working on the client-side of the application, where the user interacts directly. Full Stack Developers are proficient in web technologies like HTML, CSS, and JavaScript, and they may use frameworks like React, Angular, or Vue.js to build interactive and responsive user interfaces.</li>
+                                        <li>Back-End Development: This entails working on the server-side of the application, handling data storage, processing, and business logic. Full Stack Developers are skilled in server-side programming languages like Python, Java, Node.js, Ruby, or PHP. They work with databases (e.g., MySQL, PostgreSQL, MongoDB) to manage data and may use frameworks like Express or Django to streamline development.</li>
+                                        <li>Database Management: Full Stack Developers understand database concepts and are capable of designing efficient database schemas, optimizing queries, and ensuring data integrity and security.</li>
+                                        <li>DevOps and Deployment: Full Stack Developers often have knowledge of deployment processes and may work with cloud platforms like AWS, Azure, or Google Cloud. They might handle version control using Git and understand CI/CD (Continuous Integration/Continuous Deployment) pipelines.</li>
+                                        <li>Software Architecture and System Design: Full Stack Developers have a grasp of software architecture principles and can design scalable, maintainable, and efficient applications.</li>
+                                        <li>Problem-Solving and Troubleshooting: Full Stack Developers need to be adept at problem-solving and debugging issues that arise during development or in production.</li>
+                                    </ol>
+                                    <p class="card-text">It's important to note that being a Full Stack Developer doesn't necessarily mean being an expert in every technology or framework; rather, it means having a solid understanding of various components in the stack and being able to work across multiple layers effectively. The role of a Full Stack Developer can vary depending on the organization's needs and the project requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="gitbash-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>Git Bash</h>
+                    <P>Paragraph</P>
+                    <div class="card mb-3" style="max-width: 90%;">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex text-center align-items-center justify-content-center">
+                                <img src="/assets/images/gitbash/file-names.jpeg" class="img-fluid rounded-start" alt="File Names">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                        <h2 class="card-title">File Naming Conventions</h2>
+                                        <p class="card-text">A list of file names to use with the touch command in Git Bash</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="html-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>HTML</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="css-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>CSS</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="js-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>JavaScript</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="advanced-js-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>Advanced JavaScript</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="bootstrap-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>BootStrap</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="jquery-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>JQuery</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="dayjs-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>Day.Js</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="server-side-api-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>Server-Side API's</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="api library-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>API Library</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
+            <section id="css-framework-libraries-section" class="card col-2 col-12 col-md-9 border rounded p-3 m-3" style=" width: 90%">
+                <h1>CSS Framework Library</h>
+                    <P>Paragraph</P>
+                    <ul>
+                        <li>list item 1</li>
+                    </ul>
+            </section>
         </section>
     </main>
     <footer>
         <p>this is a footer</p>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
         <script src="assets/js/script.js"></script>
     </footer>
   </body>

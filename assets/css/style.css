@@ -1,7 +1,20 @@
 * {
-    background-color: darkgrey;
+    background-color: #2E2E3A;
     color: white;
 
+}
+
+nav div ul li a {
+    color: white;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/developer-cycle.png");
+    background-size:contain;
+    background-position: center;
 }
 
 h1 {
